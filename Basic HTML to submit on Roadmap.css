@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+ 
+   
+
+}
+
+
+
+ 
+
+
+@media only screen and (max-width: 890px) {
+
+  #reviews > article{   
+    grid-column: 1 / span 3;
+  
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+
+  #portfolio-details > section{   
+    grid-column: 1 / span 4;
+  
+  }
+  
+}
+
+@media  only screen and (max-width: 346px) {
+
+  #personal-portfolio .top-bar > #navbar {   
+    grid-column: 1 / span 2;
+     
+ 
+  }
+  
+}
+
+/*personal portfolio*/
+
+#personal-portfolio{
+  margin-bottom: auto;
+  border: 2px solid black;
+ 
+  
+}
+
+
+.top-bar{
+  
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+ 
+ 
+.top-bar > nav{
+  font-weight: 590;
+}
+
+
+/*delete this:
+.top-bar > #domain{
+  flex: 30%; 
+}
+*/
+
+
+#domain{
+  display: flex;  
+  margin-top: 5px;
+}
+
+.my-profile{
+  height: 20px;
+  width: 20px;
+  background-color: #555;
+}
+
+ 
+#navbar {
+  padding-top: 6px;
+   
+  text-align: right;
+   
+}
+ 
+ 
+
+
+#navbar a{
+  color: #000000;
+  text-decoration: none;
+  
+}
+
+
+
+
+header{
+  text-align: center;
+  
+  padding-top: 30px;
+  padding-bottom: 60px;
+   
+}
+
+.career-choice {
+  margin-bottom: 10px;
+
+}
+
+.more-info{
+  color: rgb(101, 101, 101);
+   
+}
+ 
+
+/*Portfolio details*/
+
+
+#portfolio-details{
+  
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 1.2fr; /*this replaces the way to adjust the margin of each columns*/
+  margin-top: auto; 
+  margin-bottom: auto;
+  border: 1px solid black;
+
+ 
+ 
+   
+}
+ 
+
+
+#portfolio-details > section{
+ 
+  padding-bottom: 70px;
+  margin: 0px;
+  border: 1.5px solid black;
+ 
+}
+
+
+
+.project-list{
+ 
+  margin-left: 0;
+  margin-right: 0;
+   
+
+}
+
+.project-list > .no-row-1st {
+  border: 2px solid black;
+  border-style: none none solid none;
+  
+  
+}
+
+
+
+.project-list li{
+  list-style-type: none;
+  border: 2px solid black;
+  border-style: none none solid none;
+  padding-bottom: 12.5px;
+  padding-left: 20px;
+  padding-top: 5px;
+
+  
+  margin-right: 0;
+  margin-left: -50px;
+
+  
+
+   
+}
+
+.project-list > .no-row-last{
+  border-style: none none none none;
+}
+
+.work-2{
+  border-top: 2px solid black;
+  margin: 0;
+  padding-left: 5px;
+  
+  
+}
+
+.courses-list li {
+  margin-left: -21px;
+}
+
+
+/* Reviews */
+
+#review-part{
+  border: 2px solid black;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 50px;
+  
+  
+}
+
+
+#reviews{
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  
+}
+
+#reviews > article{
+  border-radius: 28px;
+  border: 1px solid black;
+  border-width: 2px;
+  padding: 10px 10px 50px 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  
+}
+
+
+.teacher, .teacher-job{
+  font-style: italic;
+  color: rgb(101, 101, 101);
+  
+}
+
+.teacher{
+  margin-bottom: auto;
+}
+.teacher-job{
+  margin-top: auto;
+}
+
+footer {
+  text-align: center;
+  padding-top: 100px;
+  
+}
+
+
+
+ 
+
+#portfolio-details > .col-1, #review-part > h2{
+  padding-left: 10px;
+}
+
+ 
+
